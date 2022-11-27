@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="user\main.cpp">
+      <Filter>user</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\dllmain.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\helpers.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\il2cpp-init.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\pch-il2cpp.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\kiero.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\impl\d3d11_impl.cpp">
+      <Filter>drawing\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\impl\win32_impl.cpp">
+      <Filter>drawing\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\Menu.cpp">
+      <Filter>drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\Memory.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\MemPatch.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\FuncHook.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\imgui\imgui.cpp">
+      <Filter>drawing\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\imgui\imgui_demo.cpp">
+      <Filter>drawing\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\imgui\imgui_draw.cpp">
+      <Filter>drawing\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\imgui\imgui_tables.cpp">
+      <Filter>drawing\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\imgui\imgui_widgets.cpp">
+      <Filter>drawing\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>drawing\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>drawing\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="mod\Mod.cpp">
+      <Filter>mod</Filter>
+    </ClCompile>
+    <ClCompile Include="mod\mods\Aimbot.cpp">
+      <Filter>mod\mods</Filter>
+    </ClCompile>
+    <ClCompile Include="mod\ModManager.cpp">
+      <Filter>mod</Filter>
+    </ClCompile>
+    <ClCompile Include="mod\mods\GunHacks.cpp">
+      <Filter>mod\mods</Filter>
+    </ClCompile>
+    <ClCompile Include="mod\mods\ESP.cpp">
+      <Filter>mod\mods</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="user\main.h">
+      <Filter>user</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-api-functions.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-api-functions-ptr.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-functions.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-metadata-version.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-types.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-types-ptr.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\helpers.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\il2cpp-appdata.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\il2cpp-init.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\pch-il2cpp.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\kiero.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\impl\d3d11_impl.h">
+      <Filter>drawing\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\impl\win32_impl.h">
+      <Filter>drawing\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\Menu.h">
+      <Filter>drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\Memory.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\MemPatch.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\FuncHook.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\imgui\imconfig.h">
+      <Filter>drawing\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\imgui\imgui.h">
+      <Filter>drawing\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\imgui\imgui_internal.h">
+      <Filter>drawing\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\imgui\imstb_rectpack.h">
+      <Filter>drawing\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\imgui\imstb_textedit.h">
+      <Filter>drawing\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\imgui\imstb_truetype.h">
+      <Filter>drawing\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\imgui\backends\imgui_impl_dx11.h">
+      <Filter>drawing\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\imgui\backends\imgui_impl_win32.h">
+      <Filter>drawing\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="mod\Mod.h">
+      <Filter>mod</Filter>
+    </ClInclude>
+    <ClInclude Include="mod\mods\Aimbot.h">
+      <Filter>mod\mods</Filter>
+    </ClInclude>
+    <ClInclude Include="mod\ModManager.h">
+      <Filter>mod</Filter>
+    </ClInclude>
+    <ClInclude Include="mod\mods\GunHacks.h">
+      <Filter>mod\mods</Filter>
+    </ClInclude>
+    <ClInclude Include="mod\mods\ESP.h">
+      <Filter>mod\mods</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="appdata">
+      <UniqueIdentifier>{3fcb7f77-42c0-45ed-8f31-506d903d1f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{48631b8b-b8d2-450f-bf00-9ca3818d30eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user">
+      <UniqueIdentifier>{93fc109a-a332-41e6-a224-4efe46e5c5e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drawing">
+      <UniqueIdentifier>{87bca2cd-e98c-48fa-b9d8-597a2c4f1736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drawing\impl">
+      <UniqueIdentifier>{9c0c6d55-6791-44bc-b595-35217f6f3253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{f989a5c5-8e7c-474c-a3af-ef1f922049c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{b93047d2-9f20-4c6d-9090-3f3a1938b0d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drawing\imgui">
+      <UniqueIdentifier>{8af1c1d1-46ef-4755-9c3c-1b5e21e845f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drawing\imgui\backends">
+      <UniqueIdentifier>{4b452def-c442-44ee-9d47-f3984b007146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod">
+      <UniqueIdentifier>{519365f8-dc31-4b0d-8f50-d3956f0a2419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod\mods">
+      <UniqueIdentifier>{79442504-1ef1-4891-920a-fe0066f45f73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
